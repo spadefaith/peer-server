@@ -12,7 +12,5 @@ const port = process.env.PORT || 7422;
 PeerServer({
     path:'/peerjs',
     port,
-    ssl:{
-        key, cert,
-    }
+
 });
